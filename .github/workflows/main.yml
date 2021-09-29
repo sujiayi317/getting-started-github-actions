@@ -44,4 +44,12 @@ jobs:
           mvn --version
           gradle --version
           ant -version
-          echo test, and deploy your project.
+          echo Who is running this script?
+          whoami
+          echo How is the disk laid out?
+          df
+          echo What environment variables are available?
+          env
+          echo
+          
+          
